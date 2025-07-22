@@ -29,10 +29,30 @@ def mult():
         print(f"O resultado da subtração é: {multi}")
     except ValueError:
         print("Os números devem ser inteiros")
+        
+def divisao():
+    try:
+        num1 = float(input("Introduza o primeiro número: "))
+        num2 = float(input("Introduza o segundo número: "))
+        
+        if num1 > 0 and num2 > 0:
+            div = num1 / num2
+            print(f"O resultado da subtração é: {div}")
+        else:
+            print("è impossível dividir por 0.")
+        
+    except ValueError:
+        print("Os números devem ser reais!")        
+
+    except ZeroDivisionError:
+        print("Erro! É impossível dividir por 0!")
+        
 
 
-#while True:
-#    mult()
+
+
+while True:
+    divisao()
 
 
 
