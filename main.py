@@ -8,6 +8,18 @@ def soma():
         print(f"O resultado da soma é: {soma}")
     except ValueError:
         print("Os números devem ser inteiros")
+        
+def subtracao():
+    try:
+        num1 = int(input("Introduza o primeiro número: "))
+        num2 = int(input("Introduza o segundo número: "))
+        
+        sub = num1 - num2
+        
+        print(f"O resultado da subtração é: {sub}")
+    except ValueError:
+        print("Os números devem ser inteiros")
+        
 
 
 
