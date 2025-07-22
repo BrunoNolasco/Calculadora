@@ -20,7 +20,7 @@ def subtracao():
     except ValueError:
         print("Os números devem ser inteiros")
         
-def mult():
+def multiplicacao():
     try:
         num1 = int(input("Introduza o primeiro número: "))
         num2 = int(input("Introduza o segundo número: "))
@@ -49,10 +49,14 @@ def divisao():
         
 
 
-
-
-while True:
-    divisao()
+while True:    
+        
+    print("\n Iniciando calculadora \n")
+    print("1 - Somar números reais \n")
+    print("2 - subtrair números reais \n")
+    print("3 - multiplicar números reais \n")
+    print("4 - dividir números reais \n")
+    opcao = input("Indique a opção a executar: ")
 
 
 
