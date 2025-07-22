@@ -56,9 +56,26 @@ while True:
     print("2 - subtrair números reais \n")
     print("3 - multiplicar números reais \n")
     print("4 - dividir números reais \n")
+    print("5 - finalizar programa \n")
     opcao = input("Indique a opção a executar: ")
 
-
+    if opcao == "1":
+        print("A executar a soma: ")
+        soma()    
+    elif opcao == "2":
+        print("A executar a subtração: ")
+        subtracao()
+    elif opcao == "3":
+        print("Ã executar a multiplicação: ")
+        multiplicacao()    
+    elif opcao == "4":
+        print("A executar a divisão: ")
+        divisao()
+    elif opcao == "5":
+        print("Obrigado! ")
+        break
+    else:
+        print("Opção inválida! Tente novamente! ")
 
 
 
